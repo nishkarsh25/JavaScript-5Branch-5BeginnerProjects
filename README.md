@@ -71,7 +71,7 @@ MyCalculatorApp is made possible by the contributions and support of various ind
 
 - **Tailwind CSS Team:** For developing Tailwind CSS, a versatile CSS framework that simplifies web development and enhances user interfaces.
   
-- **Open Source Community:** For fostering collaboration, innovation, and the sharing of knowledge, which enriches projects like MySignatureApp and makes them accessible to all.
+- **Open Source Community:** For fostering collaboration, innovation, and the sharing of knowledge, which enriches projects like MyCalculatorApp and makes them accessible to all.
 
 ## Credits
 
