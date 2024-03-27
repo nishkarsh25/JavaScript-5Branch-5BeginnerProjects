@@ -31,7 +31,7 @@ To use the calculator, simply open the `index.html` file in a web browser. You'l
 
 If you want to contribute to the development of this calculator, feel free to fork the repository and make your changes. You can submit pull requests with your improvements, bug fixes, or new features.
 
-### Prerequisites
+## Prerequisites
 
 No special prerequisites are needed to contribute to this project. Basic knowledge of HTML, CSS, and JavaScript would be helpful.
 
