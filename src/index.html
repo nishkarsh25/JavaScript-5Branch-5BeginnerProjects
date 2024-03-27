@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .container {
+            border-width: 4px; /* Reduced border width */
+            border-color: white;
+            border-radius: 40px; /* Increased border radius for more rounding */
+            box-shadow: 0 0 10px 5px white inset, 0 0 10px 5px white; /* Reduced glowing effect */
+        }
+    </style>
 </head>
 <body class="bg-black h-screen flex justify-center items-center">
     <div class="container h-96 w-96 border-4 border-white rounded-lg shadow-lg">
