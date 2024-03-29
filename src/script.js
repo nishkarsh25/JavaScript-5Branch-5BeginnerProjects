@@ -16,3 +16,26 @@ btn.addEventListener("click", () => {
       guessNumber();
     }
   });
+
+  function guessNumber() {
+    if (input.value < 1 || input.value > 100 || isNaN(input.value)) {
+      wrng.innerHTML = "Enter Between 1 to 100";
+    } else {
+      numGuesses++;
+      guesses.innerHTML = "No. of Guess : " + numGuesses;
+      if (input.value > answer) {
+        wrng.innerHTML = "You guessed too high!";
+        input.value="";
+      } else if (input.value < answer) {
+        wrng.innerHTML = "You guessed too low!";
+        input.value="";
+      } else {
+        wrng.innerHTML = "Congratulations! You guessed the correct number in " + numGuesses + " guesses!";
+        btn.disabled = true;
+        setTimeout(()=>{
+          resetGame();
+        },5000)
+  
+      }
+    }
+  }
