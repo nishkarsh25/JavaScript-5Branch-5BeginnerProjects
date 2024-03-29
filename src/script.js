@@ -5,7 +5,8 @@ document.addEventListener("mousemove", (e) => {
 });
 
 const move = (e) => {
-    
+    var x = e.pageX;
+    var y = e.pageY;
 
     
 };
