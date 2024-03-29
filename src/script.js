@@ -39,3 +39,13 @@ btn.addEventListener("click", () => {
       }
     }
   }
+
+
+  function resetGame() {
+    numGuesses = 0;
+    answer = Math.floor(Math.random() * 100) + 1;
+    input.value = "";
+    wrng.innerHTML = "";
+    btn.disabled = false;
+    guesses.innerHTML = "No. of Guess : 0";
+  }
