@@ -5,22 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>Guessing Game</title>
+    <title>Rocket Follow Mouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-
-<body class="bg-gradient-to-r from-purple-500 to-indigo-500 min-h-screen flex items-center justify-center">
-    <div class="container bg-white rounded-lg shadow-lg p-8">
-        <h1 class=" head text-3xl font-bold text-gray-800 mb-8 text-center">Guess a number between 1 and 100</h1>
-        <div class="entry flex items-center justify-center space-x-4">
-            <input type="text" id="input"
-                class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-indigo-400" />
-            <button id="btn"
-                class="bg-indigo-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-400">Guess</button>
-        </div>
-        <p class="wrng text-red-600 mt-2 text-center"></p>
-        <p id="guesses" class="mt-4 text-center">No. of Guesses: 0</p>
+<body class="bg-cover bg-no-repeat" style="background-image: url('bg-img.png');">
+    <div id="my-div" class="fixed">
+        <img src="rocket.png"/>
     </div>
+
     <script src="script.js"></script>
 </body>
 
