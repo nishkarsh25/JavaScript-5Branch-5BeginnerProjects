@@ -16,11 +16,11 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your app here to give users a visual representation of what your app looks like. -->
-<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/CalculatorProject/Screenshots/ss1.png" alt="Screenshot 1" width="1000"> 
+<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/main/Screenshots/ss1.png" alt="Screenshot 1" width="1000"> 
 
 
 # GIF's
-<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/CalculatorProject/Screenshots/ss2.gif" alt="Screenshot 4" width="1000">
+<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/main/Screenshots/ss2.gif" alt="Screenshot 4" width="1000">
 
 ## Usage
 
