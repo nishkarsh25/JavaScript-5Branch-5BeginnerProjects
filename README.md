@@ -31,7 +31,7 @@ Using the Random Quotes Generator is straightforward:
 
 
 # GIF's
-<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/RandomQuotesProject/Screenshots/ss2.gif" alt="Screenshot 4" width="500">
+<img src="https://github.com/nishkarsh25/JavaScript-5Branch-5BeginnerProjects/blob/RandomQuotesProject/Screenshots/ss2.gif" alt="Screenshot 4" width="1000">
 
 
 ## Technologies Used
