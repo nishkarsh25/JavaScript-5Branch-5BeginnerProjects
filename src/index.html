@@ -8,11 +8,39 @@
     <title>Rocket Follow Mouse</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-cover bg-no-repeat" style="background-image: url('bg-img.png');">
-    <div id="my-div" class="fixed">
-        <img src="rocket.png"/>
-    </div>
+<body class="bg-gradient-to-br from-green-400 to-cyan-500 h-screen flex flex-col items-center justify-center">
+    <h1 class="text-4xl text-gray-200 font-bold mb-8">Calculator</h1>
+    <div class="container mx-auto max-w-md  rounded-lg shadow-lg bg-red-900 p-4 py-6">
+        <h2 id="input" class="text-3xl mb-4 text-center font-semibold border-4 border-red-500"></h2>
 
+        <div class="grid grid-cols-4  gap-2">
+            <button class="new bg-gray-700 hover:bg-gray-600 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">C</button>
+            <button class="new bg-gray-700 hover:bg-gray-600 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">&lt;</button>
+            <button class="new bg-gray-700 hover:bg-gray-600 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">%</button>
+            <button class="new bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">/</button>
+
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">7</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">8</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">9</button>
+            <button class="new bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">*</button>
+
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">4</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">5</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">6</button>
+            <button class="new bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">-</button>
+
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">1</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">2</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">3</button>
+            <button class="new bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">+</button>
+
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">0</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">00</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">.</button>
+            <button class="new bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-4 rounded-full transition duration-300 transform hover:scale-105">=</button>
+        </div>
+
+    </div>
     <script src="script.js"></script>
 </body>
 
