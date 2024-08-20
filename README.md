@@ -13,6 +13,10 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 
 - **Dynamic Calculation:** The calculator evaluates mathematical expressions in real-time as users input numbers and operators. It utilizes JavaScript's `eval()` function to perform the calculations.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://javascript-5branch-5beginnerprojects.onrender.com/).
+
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your app here to give users a visual representation of what your app looks like. -->
