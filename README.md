@@ -24,6 +24,9 @@ Using the Slider is simple and intuitive:
 ### Customizable Styling
 - The project utilizes Tailwind CSS for styling, allowing for easy customization and modification of the slider's appearance. Developers can easily adjust the colors, fonts, and layout to match their desired design preferences or branding requirements.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://javascript-5branch-5beginnerprojects-3.onrender.com/).
 
 ## Screenshots
 
