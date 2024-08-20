@@ -24,6 +24,10 @@ Using the Random Quotes Generator is straightforward:
 ### Responsive Layout
 - The project is built using responsive design principles, ensuring optimal performance and usability across various devices and screen sizes. Whether accessed on a desktop, tablet, or smartphone, the Random Quotes Generator adapts seamlessly to provide a consistent and enjoyable experience.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://javascript-5branch-5beginnerproject-2.onrender.com).
+
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your app here to give users a visual representation of what your app looks like. -->
