@@ -37,6 +37,10 @@ Playing the Guessing Game is straightforward. Here's a step-by-step guide:
 ### Reset Functionality
 - After successfully guessing the correct number, players can reset the game to its initial state with ease. The reset functionality clears the input field, resets the guess count to zero, generates a new random number for the player to guess, and enables them to embark on a new round of gameplay.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://javascript-5branch-5beginnerprojects-4.onrender.com).
+
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your app here to give users a visual representation of what your app looks like. -->
