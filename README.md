@@ -13,6 +13,10 @@ The project is designed to be responsive, ensuring that it adapts seamlessly to 
 ### Tailwind CSS Styling
 Tailwind CSS, a highly customizable utility-first CSS framework, is used to style the elements in the project. This framework provides a modern and visually appealing appearance while maintaining flexibility and scalability.
 
+## Live Demo
+
+You can try out the live demo of the app [here](https://javascript-5branch-5beginnerprojects-5.onrender.com).
+
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your app here to give users a visual representation of what your app looks like. -->
